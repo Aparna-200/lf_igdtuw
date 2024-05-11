@@ -7,6 +7,7 @@ $pageSplit[1] = (strtolower($pageSplit[1]) == 'list') ? $pageSplit[0].' List' : 
 ?>
 <!DOCTYPE html>
 <html lang="en">
+<?php require_once('inc/header.php') ?>
   <body>
      
      <?php require_once('inc/topBarNav.php') ?>

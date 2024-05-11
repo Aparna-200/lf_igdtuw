@@ -36,7 +36,7 @@
 
               <div class="d-flex justify-content-center py-4">
                 <a href="index.html" class="logo d-flex align-items-center w-auto">
-                  <img src="C:\xampp\htdocs\php-lfis\uploads\college_logo.png" alt="">
+                  <img src="<?= validate_image($_settings->info('logo')) ?>" alt="">
                   <span class="d-none d-lg-block text-center"><?= $_settings->info('name') ?></span>
                 </a>
               </div><!-- End Logo -->
